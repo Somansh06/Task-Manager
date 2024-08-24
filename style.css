@@ -1,0 +1,167 @@
+*{
+    margin : 0px ; 
+    padding : 0px ;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw; 
+}
+
+.utility {
+    height: 10%;
+    width: 100%;
+    background-color: #603F26;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.priorityColor{
+    height: 70%;
+    width: 35%;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box{
+    height: 80%;
+    width: 20%;;
+
+}
+
+.red{
+    background-color: red;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.green{
+    background-color: green;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.search{
+    height: 80%;
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.searchBar{
+    height: 70%;
+    width: 80%;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 3vh;
+}
+
+.srchBtn{
+    height: 50%;
+    padding: 5px ;
+    background-color: #603F26;
+    color: white ;
+    margin: 2% ;
+}
+
+.controls{
+    height: 70%;
+    background-color: whitesmoke;
+    width: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ticketContainer{
+    height: 90%;
+    width: 100%;
+    background-color: beige;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 2%;
+    border-color: black;
+    border: 2px;
+
+}
+
+.ticketAdder{
+    height: 40vh;
+    width: 45vw;
+    background-color: beige;
+    position: absolute;
+   left: 27vw;
+   top: 20vh;
+   z-index: 20;
+   border: 3px solid #603F26 ;
+  
+}
+.textPart{
+    height: 75%;
+    width: 100%;
+    resize: none;   
+    outline : none ;
+    border: none ;
+    background-color: transparent;
+    font-size: 2rem ;
+    padding:2% ;
+}
+
+.ticketPriority{
+    height: 25%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 3px solid #603F26 ;
+}
+
+.border{
+    border: 4px solid #603F26;
+}
+
+.ticket{
+    height: 30vh;
+    width : 17vw ;
+    background-color: beige;
+    border: 3px solid #603F26;
+}
+
+.taskColor{
+    height: 10%;
+   
+}
+
+.taskText{
+    padding: 5px;
+    font-size: 2rem;
+    position: relative;
+    height: 90%;
+}
+
+.lock{
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+    
+}
+
+.noDisplay{
+    display: none;
+}
+
+.editTask{
+    word-break: break-all;
+}
